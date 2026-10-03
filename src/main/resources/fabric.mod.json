@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "vault-odds",
+  "version": "${version}",
+  "name": "Vault Odds",
+  "description": "Shows real vault reward odds and can auto-insert your trial key when a chosen item is displayed. Client-side only.",
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "vault-odds.mixins.json"
+  ],
+  "entrypoints": {
+    "client": [
+      "vaultodds.VaultOddsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

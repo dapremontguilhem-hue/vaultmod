@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "vaultodds.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPacketListenerMixin",
+    "GuiMixin",
+    "MinecraftMixin",
+    "OptionsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
